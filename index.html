@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サービス一覧</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #26a79a;
+            color: #000000;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 20px;
+            font-size: 2.5rem;
+        }
+
+        .service-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+            justify-content: center;
+        }
+
+        .service-box {
+            background: #ffffff;
+            color: #000000;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-decoration: none;
+        }
+
+        .service-box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        .service-box h2 {
+            margin-top: 0;
+            font-size: 1.5rem;
+        }
+
+        .service-box p {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <h1>サービス一覧</h1>
+    <div class="service-container">
+        <a href="https://gamma.f5.si" class="service-box">
+            <h2>掲示板</h2>
+            <p>登録不要な掲示板です。ルールを守って安全に使いましょう。</p>
+        </a>
+        <a href="https://yu-technicaldepartment.github.io/level.github.io/" class="service-box">
+            <h2>水平器</h2>
+            <p>端末の加速度センサーを使った水平器です。アクセスを許可して使ってください。</p>
+        </a>
+        <a href="https://yu-technicaldepartment.github.io/html-compare.github.io/" class="service-box">
+            <h2>テキスト比較ツール</h2>
+            <p>2つのテキストを比較できます。蛍光ペンで表示されるので使いやすくなっています。</p>
+        </a>
+        <a href="https://yu-technicaldepartment.github.io/html.github.io/" class="service-box">
+            <h2>HTMLコードテスター</h2>
+            <p>コードを実行すると新しいタブで表示されるので、ホームページ作成におすすめです。</p>
+        </a>
+        <a href="https://yu-technicaldepartment.github.io/timer.github.io/" class="service-box">
+            <h2>予鈴付きタイマー</h2>
+            <p>自分用に作ったタイマーです。ご自由にお使いください。</p>
+        </a>
+        <a href="https://yu-technicaldepartment.github.io/calculator.github.io/" class="service-box">
+            <h2>電卓</h2>
+            <p>ただただ計算しているだけなので、小数の計算が苦手です。整数の計算は大得意です。</p>
+        </a>
+        <a href="https://yu-technicaldepartment.github.io/password.github.io/" class="service-box">
+            <h2>パスワード生成ツール</h2>
+            <p>オプションを選択して生成できます。生成されたパスワードは送信されませんのでご安心ください。</p>
+        </a>
+        <a href="https://yu-technicaldepartment.github.io/clock.github.io/" class="service-box">
+            <h2>絶対に起きれる目覚まし</h2>
+            <p>鳴ったら素因数分解を解かなければいけない目覚ましです。自分用に作りました。</p>
+        </a>
+        <a href="https://yu-technicaldepartment.github.io/task.github.io/" class="service-box">
+            <h2>タスク管理アプリ</h2>
+            <p>タスク管理におすすめです。シンプルなので気が散りません。</p>
+        </a>
+    </div>
+</body>
+</html>
